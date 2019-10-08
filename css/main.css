@@ -14,8 +14,8 @@ html {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
 
   position: absolute;
-  left: 30%;
-  top: 15em;
+  left: 20%;
+  top: 5em;
 }
 
 .polaroid > img {
@@ -27,21 +27,29 @@ html {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
   position: absolute;
+  left: 50%;
+  top: 50%;
 }
 
 .polaroid:first-child {
   transform: rotate(-20deg);
   position: absolute;
+  top: 250px;
+  left: 250px;
 }
 
 .polaroid:nth-child(2) {
   transform: rotate(20deg);
   position: absolute;
+  left: 200px;
+  top: 150px;
 }
 
 .polaroid:nth-child(3) {
   transform: rotate(40deg);
   position: absolute;
+  left: 150px;
+  top: 200px;
 }
 
 .polaroid:hover {
