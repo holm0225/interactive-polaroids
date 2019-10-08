@@ -27,31 +27,33 @@ html {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
   position: absolute;
-  left: 50%;
-  top: 50%;
+  left: 30%;
+  top: 70%;
 }
 
 .polaroid:first-child {
   transform: rotate(-20deg);
   position: absolute;
-  top: 250px;
-  left: 250px;
+  top: 100px;
+  left: 200px;
 }
 
 .polaroid:nth-child(2) {
   transform: rotate(20deg);
   position: absolute;
-  left: 200px;
+  left: 100px;
   top: 150px;
+  z-index: 100;
 }
 
 .polaroid:nth-child(3) {
   transform: rotate(40deg);
   position: absolute;
   left: 150px;
-  top: 200px;
+  top: 100px;
 }
 
 .polaroid:hover {
   transform: rotate(0);
+  z-index: 500;
 }
